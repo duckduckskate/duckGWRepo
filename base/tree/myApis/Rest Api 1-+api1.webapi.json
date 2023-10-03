@@ -1,0 +1,20 @@
+{
+  "goid": "84449671abe2a5b143051dbdfdf7e685",
+  "guid": "03ce0919-40f8-43c0-8fff-124b8487d79f",
+  "name": "Rest Api 1",
+  "resolutionPath": "/api1",
+  "checksum": "3a32c2c0a66da9ab84605789e2a5f1bea532627b",
+  "enabled": true,
+  "folderPath": "/myApis",
+  "methodsAllowed": [
+    "GET",
+    "POST",
+    "PUT",
+    "DELETE"
+  ],
+  "tracingEnabled": false,
+  "wssProcessingEnabled": false,
+  "policy": {
+    "xml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<wsp:Policy xmlns:L7p=\"http://www.layer7tech.com/ws/policy\" xmlns:wsp=\"http://schemas.xmlsoap.org/ws/2002/12/policy\">\n    <wsp:All wsp:Usage=\"Required\">\n        <L7p:SetVariable>\n            <L7p:Base64Expression stringValue=\"aGVsbG8gYXBpIDEgYmFo\"/>\n            <L7p:VariableToSet stringValue=\"service_specific_var\"/>\n        </L7p:SetVariable>\n        <L7p:Include>\n            <L7p:PolicyGuid stringValue=\"a9f7163b-d17a-42e8-9b75-855ca6f67c08\"/>\n        </L7p:Include>\n    </wsp:All>\n</wsp:Policy>\n"
+  }
+}

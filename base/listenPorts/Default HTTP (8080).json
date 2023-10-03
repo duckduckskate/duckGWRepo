@@ -1,0 +1,11 @@
+{
+  "goid": "e2e89821bc392ab64a6e30df1224f663",
+  "name": "Default HTTP (8080)",
+  "checksum": "69762ec112b7fd7d72ee8757f975a96ea1d1f148",
+  "enabled": false,
+  "protocol": "HTTP",
+  "port": 8080,
+  "enabledFeatures": [
+    "PUBLISHED_SERVICE_MESSAGE_INPUT"
+  ]
+}
